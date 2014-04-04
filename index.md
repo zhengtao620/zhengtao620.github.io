@@ -4,8 +4,12 @@ title: 天路非遥
 ---
 {% include JB/setup %}
 
-## 这是郑涛的博客
+## 最新文章
 
-希望你能再这里收获一些东西
+
+{% for post in site.posts %}
++ {{ post.date | date_to_string }}  [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% endfor %}
+
 
 
