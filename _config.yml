@@ -1,5 +1,5 @@
-baseurl: /zhengtao620.github.com
-
+baseurl: /
+markdown: kramdown
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title/
